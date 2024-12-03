@@ -9,7 +9,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <ThirdwebProvider activeChain={11155111} clientId= "371d54c8baf057be4eb906029c6456ad"> 
+  <ThirdwebProvider activeChain={11155111} clientId= "20eea52ccd37d340178f0319c40631d8">  
     <Router>
       <StateContextProvider>
         <App />
@@ -17,3 +17,6 @@ root.render(
     </Router>
   </ThirdwebProvider> 
 )
+
+// sepolia chain id - 11155111
+// my third web project container (crowd connect ) clientId= "20eea52ccd37d340178f0319c40631d8"

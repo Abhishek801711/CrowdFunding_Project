@@ -3,8 +3,8 @@ import { ethers } from 'ethers';
 import { Campaign } from '../types'; // Ensure the Campaign type is properly imported
 
 const network = "sepolia"; 
-const contractAddress = "0x33Ab556b1AEd46b76A734A58e831c778dE93528A"; // Your actual contract address
-const clientId = "371d54c8baf057be4eb906029c6456ad"; // Your actual client ID
+const contractAddress = "0xef74425E455181Cf4D09911C1b36d22ED980008e"; // Your actual contract address
+const clientId = "20eea52ccd37d340178f0319c40631d8"; // Your actual client ID
 
 const sdk = new ThirdwebSDK(network, {
   clientId: clientId, // Required for thirdweb services
